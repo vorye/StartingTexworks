@@ -1,0 +1,59 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum} % For placeholder text. Remove this package in your actual document.
+
+% Custom title page design
+\usepackage{titling}
+\renewcommand{\maketitle}{
+  \begin{titlepage}
+    \begin{center}
+      \vspace*{1.5cm}
+      {\Huge\bfseries\thetitle}\\
+      \vspace{0.5cm}
+      \Large\theauthor\\
+      \vspace{0.5cm}
+      \Large\thedate\\
+      \vspace{2cm}
+      \includegraphics[width=5cm]{your_company_logo.png} % Add your company logo
+      \vfill
+      \small{ISO Standard: XXXXX}\\ % Replace XXXXX with the relevant ISO standard number
+    \end{center}
+  \end{titlepage}
+  \clearpage
+}
+
+\title{Your Document Title}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This is the introduction section. Provide a brief overview of the document's purpose.
+
+\subsection{Background}
+Here is some background information. You can include relevant historical context or prior research.
+
+\section{Main Content}
+Start writing your main content here. Organize it into sections and subsections as needed.
+
+\subsection{Section One}
+You can use this subsection to elaborate on specific points related to the main content.
+
+\subsubsection{Subsection Example}
+You can use sub-subsections for further organization if required.
+
+\section{Conclusion}
+In conclusion, summarize the key findings and main points discussed in the document.
+
+\section{Recommendations}
+If applicable, provide any recommendations for future actions or improvements.
+
+\section{References}
+Include a list of references and citations used in the document.
+
+\end{document}
